@@ -35,7 +35,7 @@ filtered_leads = merged_df[merged_df['Company'].notna()]
 filtered_leads.to_csv('E:/EMA Project/New folder/filtered_leads.csv', index=False)
 
 # Initialize OpenAI API 
-openai.api_key = 'sk-proj-kgekVUbQnCNDcC97iAhZT3BlbkFJgs6vHZ3ZJF2lcJ96q92E'
+openai.api_key = 'sk-proj-kgekVUblbkFJgs6vHZ3ZJF2lcJ96q92E'
 
 # Language mapping
 language_mapping = {
